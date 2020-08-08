@@ -9,8 +9,8 @@ A BTC Donation Module form Joomla! 4.
 
 Site Preview
 ---------------------
-![screenshot](https://user-images.githubusercontent.com/906604/89705742-e5475800-d95f-11ea-9331-66aaa6c22601.png "Joomla!LABS BTC Donation Module Site Screenshot")
+![screenshot](https://user-images.githubusercontent.com/906604/89705821-a06ff100-d960-11ea-8c05-53c6046171b2.png "Joomla!LABS BTC Donation Module Site Screenshot")
 
 Administrator Preview
 ---------------------
-![screenshot](https://user-images.githubusercontent.com/906604/89705779-31929800-d960-11ea-9c09-83dcc7a6ca18.png "Joomla!LABS BTC Donation Module Administrator Screenshot")
+![screenshot](https://user-images.githubusercontent.com/906604/89705830-b2519400-d960-11ea-875a-f6f56814730c.png "Joomla!LABS BTC Donation Module Administrator Screenshot")

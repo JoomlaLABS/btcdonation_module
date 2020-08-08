@@ -10,11 +10,15 @@
 
 defined('_JEXEC') or die;
 
+use Joomla\CMS\Language\Text;
+
 // Access to module parameters
 $address = $params->get('address', '3JTpyj8neZVQuspTvdhUxsc1byC48PWf1E');
 ?>
 
-<img src="https://chart.googleapis.com/chart?chs=300x300&cht=qr&chl=bitcoin:<?php echo $address; ?>&choe=UTF-8" title="BTC Donation" class="img-fluid img-thumbnail" />
+<img src="https://chart.googleapis.com/chart?chs=300x300&cht=qr&chl=bitcoin:<?php echo $address; ?>&choe=UTF-8"
+     alt="<?php echo $address; ?>"
+     title="<?php echo JText::_('MOD_JOOMLALABS_BTCDONATION_QRCODE_IMAGE_DESCRIPTION'); ?>" class="img-fluid img-thumbnail mb-2""/>
 <div class="input-group">
     <input
             type="text"
@@ -27,9 +31,10 @@ $address = $params->get('address', '3JTpyj8neZVQuspTvdhUxsc1byC48PWf1E');
         <button
                 class="btn btn-primary"
                 type="button"
-                id="token-copy"
-                title="Copy the token to your clipboard"
-                onclick="tokenCopy()">Copy</button>
+                id="jform_JoomlaLABS_BTCdonation_copy"
+                title="<?php echo JText::_('MOD_JOOMLALABS_BTCDONATION_MODULE_COPY_DESCRIPTION'); ?>"
+                onclick="tokenCopy()"><?php echo JText::_('MOD_JOOMLALABS_BTCDONATION_MODULE_COPY'); ?>
+        </button>
     </div>
 </div>
 
@@ -46,6 +51,6 @@ $address = $params->get('address', '3JTpyj8neZVQuspTvdhUxsc1byC48PWf1E');
         document.execCommand("copy");
 
         /* Alert the copied text */
-        alert("Copied the token: " + copyText.value);
+        alert("<?php echo JText::_('MOD_JOOMLALABS_BTCDONATION_MODULE_ALERT_COPIED'); ?> " + copyText.value);
     }
 </script>

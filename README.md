@@ -4,7 +4,7 @@ BTC Donation
 Joomla!LABS BTC Donation Module
 ---------------------
 
-A BTC Donation Module form Joomla! 4.
+A BTC Donation Module for Joomla! 4.
 
 
 Site Preview

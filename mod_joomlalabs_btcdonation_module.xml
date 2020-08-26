@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension type="module" version="4.0" client="site" method="upgrade">
+<extension type="module" client="site" method="upgrade">
     <name>MOD_JOOMLALABS_BTCDONATION_MODULE</name>
     <creationDate>28/07/20</creationDate>
     <author>Joomla!LABS</author>
